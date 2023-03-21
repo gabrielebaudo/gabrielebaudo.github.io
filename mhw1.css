@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    color: white;
+    background-color: rgb(242 , 245, 248);
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    height: 600px;
+
+    background-image: url(./images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, .3);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-transform: uppercase;
+
+    background-color: rgba(0, 0, 0, 0.570);
+    height: 12%;
+    
+}
+
+#menu {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 1em;
+
+    margin-right: 4%;
+}
+
+#menu a {
+    border: 1.5px solid white;
+    border-radius: 25px;
+    padding: 5px 10px;;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#menu a:hover {
+    color: black;
+    background-color: white;
+}
+
+#name {
+    margin-left: 4%;
+    font-size: 1.9em;
+}
+
+#header-title {
+    font-size: 4em;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#user-info  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#user-info img {
+    height: 100px;
+    width: 100px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 5px;
+    z-index: 2;
+
+}
+
+#user-info p {
+    font-size: 1.2em;
+    margin: 4px;
+}
+
+#user-info #description {
+    font-size: 0.9em;
+}
+
+#user-info div {
+    background-color: gray;
+    height: 1.5px;
+    width: 22%;
+
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 16.67%;
+
+    height: auto;
+    width: 66.67%;
+
+    color: black;
+    font-weight: bold;
+
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+#intro {
+    text-align: center;
+    line-height: 150%;
+}
+
+article {
+    margin-top: 4%;
+    display: flex;
+}
+
+.number {
+    font-size: 2.5em;
+    color: gray;
+    margin-right: 40px;
+    display: inline;
+    flex-grow: 1;
+}
+
+section .container {
+    display: inline-block;
+}
+
+section h1 {
+    font-size: 1.8em;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+section p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+section h2 {
+    color: blue;
+    font-size: 1.2em;
+    margin-top: 8px;
+    width: max-content;
+}
+
+article img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.684);
+    height: 80px;
+}
+
+footer a {
+    margin: 40px;
+}
