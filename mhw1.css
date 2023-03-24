@@ -125,7 +125,7 @@ section {
     color: black;
     font-weight: bold;
 
-    margin-top: 2%;
+    margin-top: 60px;
     margin-bottom: 6%;
 }
 
@@ -157,20 +157,20 @@ section .container {
 
 article h1 {
     font-size: 1.8em;
-    margin-top: 6px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 article h2 {
     color: blue;
     font-size: 1.2em;
-    margin-top: 8px;
-    width: max-content;
+    margin-top: 0px;
 }
 
 article p {
     font-size: 1em;
     font-weight: normal;
+    margin-top: 20px;
 }
 
 article img {
@@ -261,23 +261,28 @@ footer a {
         height: 1.5px;
     }
 
+    section {
+        margin-top: 20px;
+    }
+
     #main-content {
         width: 90%;
         margin-top: -2%;
     }
 
     #intro {
-        font-size: 0.8em;
+        font-size: 1.3em;
+        width: 90%;
     }
     
     .number {
-        font-size: 2em;
-        margin-right: 6px;
+        font-size: 3em;
+        margin-right: 15px;
     }
 
     article h1 {
-        font-size: 1.8em;
-        margin-top: 1px;
+        font-size: 2.2em;
+        margin-top: 5px;
     }
 
     article h2 {
@@ -286,7 +291,7 @@ footer a {
     }
 
     article p {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
 
     footer {
@@ -299,4 +304,10 @@ footer a {
 }
 
 
-/*COMMEMNTO POCOCOCOC COCOCOCOCO/*
+
+/*
+- AUMENTARE DIMENSIONE FOTO E DESCRIZIONI IN MOBILE
+- INGRANDIRE LE SCRITTE SOTTO L'IMMAGINE
+- RIDURRE LEGGERMENTE DIMENSIONE TESTO DEI CONTENUTI
+- DIMENSIONE MASSIMA TITOLO
+*/
