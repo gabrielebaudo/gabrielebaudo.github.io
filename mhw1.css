@@ -208,7 +208,7 @@ footer {
     height: 80px;
 }
 
-footer a {
+footer p {
     margin: 40px;
     line-height: 140%;
 }
@@ -330,7 +330,7 @@ ELEMENTI VERSIONE MOBILE
         justify-content: center;
     }
 
-    footer a {
+    footer p {
         text-align: center;
         font-size: 1.1em;
         margin: 4px;
