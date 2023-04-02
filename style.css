@@ -1,1 +1,54 @@
 /* TODO: inserite il CSS necessario per completare il MHW! */
+
+.choice-grid {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+.choice-grid div {
+    width: 32.5%;
+    margin-top: 20px;
+    /*MANCANO 20px DI MARGIN BOTTOM*/
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+}
+
+.choice-grid img {
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 10px;
+  }
+
+  .choice-grid img.checkbox {
+    height: 20px;
+    width: 20px;
+    display: block;
+  }
+
+  .question-name {
+    background-size: cover;
+  }
+
+  .question-name h1 {
+    font-size: 2.5em;
+  }
+
+
+@media (max-width: 700px) {
+    article {
+        width: 95%;
+    }
+
+    header div {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .choice-grid div {
+        width: 49%;
+    }
+}
