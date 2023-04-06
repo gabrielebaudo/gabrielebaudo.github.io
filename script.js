@@ -14,7 +14,6 @@ function setListen(){
     }
 }
 
-
 //HANDLER PER IL CLICK, CONTROLLA AD OGNI SELEZIONE SE IL TEST E COMPLETATO O NO
 function onClick(event){
     const div_elem = event.currentTarget;
@@ -139,8 +138,3 @@ function buttonPress(event){
     result.classList.remove("results");
     setListen();
 }
-
-
-
-
-
