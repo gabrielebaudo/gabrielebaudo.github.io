@@ -121,15 +121,19 @@ function display(personality){
 function buttonPress(event){
     const button = event.currentTarget;
 
-    for(const elem of elementList){
-        elem.classList.remove("selected");
+    for(const elem of freeList){
         elem.classList.remove("unselected"); 
+    }
+
+    for(const elem of selectedList){
+        elem.classList.remove("selected"); 
         const tick = elem.querySelector(".checkbox")
         tick.src = "/images/unchecked.png"
     }
 
-    //svuotiamo la lista selected
+    //svuotiamo le liste
     selectedList = [];
+    freeList = [];
     let result = document.querySelector(".results");
     result.innerHTML = '';
     result.classList.remove("results");
