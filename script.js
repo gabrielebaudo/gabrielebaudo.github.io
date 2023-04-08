@@ -100,8 +100,7 @@ function personalityfinder(){
 
 //STAMPA TUTTI GLI ELEMENTI NECESSARI ALLA FINE DELLA PAGINA
 function display(personality){
-    const container = document.getElementById('end');
-    container.classList.add("results");
+    const container = document.getElementById('results');
     const title = document.createElement("h1");
     const description = document.createElement("p");
     const button = document.createElement("div");
@@ -113,6 +112,7 @@ function display(personality){
     button.textContent = "Ricomincia il quiz";
     button.classList.add("button");
     container.appendChild(button);
+    container.classList.remove("hidden")
 }
 
 
@@ -133,8 +133,8 @@ function buttonPress(event){
     //svuotiamo le liste
     selectedList = [];
     freeList = [];
-    let result = document.querySelector(".results");
+    let result = document.getElementById("results");
     result.innerHTML = '';
-    result.classList.remove("results");
+    result.classList.add("hidden");
     setListen();
 }
